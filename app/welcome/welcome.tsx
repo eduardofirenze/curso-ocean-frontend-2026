@@ -12,39 +12,51 @@ export function Welcome() {
       <div className="personagens">
         <div className="personagem">
           <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"/>
+          <div className="detalhes">
           <p>
             Rick Sanchez
           </p>
+          </div>
+          <div className="especie">
           <p>
             Humano
           </p>
+          </div>
           <span>
             Alive
           </span>
-          <div className="personagem2">
-            <img src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"/>
-            <p>
-              Morty Smith
-            </p>
-            <p>
-              Humano
-            </p>
-            <span>
-              Alive
-            </span>
-            <div className="personagem3">
-              <img src="https://rickandmortyapi.com/api/character/avatar/3.jpeg"/>
-              <p>
-                Summer Smith
-              </p>
-              <p>
-                Humano
-              </p>
-              <span>
-                Alive
-              </span>
-            </div>
+        </div>
+        <div className="personagem">
+          <img src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"/>
+          <div className="detalhes">
+          <p>
+            Morty Smith
+          </p>
           </div>
+          <div className="especie">
+          <p>
+            Humano
+          </p>
+          </div>
+          <span>
+            Alive
+          </span>
+        </div>
+        <div className="personagem">
+          <img src="https://rickandmortyapi.com/api/character/avatar/3.jpeg"/>
+          <div className="detalhes">
+          <p>
+            Summer Smith
+          </p>
+          </div>
+          <div className="especie">
+          <p>
+            Humano
+          </p>
+          </div>
+          <span>
+            Alive
+          </span>
         </div>
       </div>
     </>

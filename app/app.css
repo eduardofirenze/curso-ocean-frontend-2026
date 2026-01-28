@@ -2,25 +2,38 @@ html{
   background-color:#1e2848;
 }
 
+h1, p, span{
+  font-family: sans-serif;
+}
+
 .header {
   text-align: center;
 }
 
 .header h1{
-  font-family: sans-serif;
   font-weight: 400;
   font-size: 62px;
   color: #95cc50;
 }
 
+.personagens{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 .personagens .personagem{
   background-color: #233e8a;
-  width: 200px;
-
+  width: 300px;
+  border-radius: 16px;
+  border-bottom: 16px;
 }
 
 .personagens .personagem img{
   width: 300px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
 .personagens .personagem p{
@@ -30,22 +43,4 @@ html{
 .personagens .personagem span{
   color: black;
   background: green;
-}
-
-.personagens .personagem2 img{
-  width: 300px;
-}
-
-.personagens .personagem2 p{
-  color: white
-}
-
-.personagens .personagem2 span{
-  color: black;
-  background: green;
-}
-
-.personagens {
-  display: flex;
-  justify-content: center;
-}
+  
