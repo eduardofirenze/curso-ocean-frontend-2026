@@ -21,6 +21,30 @@ export function Welcome() {
           <span>
             Alive
           </span>
+          <div className="personagem2">
+            <img src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"/>
+            <p>
+              Morty Smith
+            </p>
+            <p>
+              Humano
+            </p>
+            <span>
+              Alive
+            </span>
+            <div className="personagem3">
+              <img src="https://rickandmortyapi.com/api/character/avatar/3.jpeg"/>
+              <p>
+                Summer Smith
+              </p>
+              <p>
+                Humano
+              </p>
+              <span>
+                Alive
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </>

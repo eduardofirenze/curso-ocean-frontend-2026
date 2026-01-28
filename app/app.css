@@ -31,3 +31,21 @@ html{
   color: black;
   background: green;
 }
+
+.personagens .personagem2 img{
+  width: 300px;
+}
+
+.personagens .personagem2 p{
+  color: white
+}
+
+.personagens .personagem2 span{
+  color: black;
+  background: green;
+}
+
+.personagens {
+  display: flex;
+  justify-content: center;
+}
